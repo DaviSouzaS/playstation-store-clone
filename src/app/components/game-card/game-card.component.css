@@ -1,14 +1,18 @@
 .game-card {
     position: relative;
-	border:3px solid #3E4357;
-	border-radius: 10px;
-	width: 350px;
-	height: 500px;
+	border: 1px solid rgb(153, 153, 153);
+    background-color: white;
+	width: 430px;
+	height: 600px;
 
 	display: flex;
 	overflow: hidden;
 	margin-top: 10px;
     cursor: pointer;
+}
+
+.game-card:hover {
+	border: 1px solid rgb(110, 110, 110);
 }
 
 .game-img {
@@ -19,6 +23,7 @@
 
 .game-img:hover{
 	transform: scale(1.1);
+    opacity: 90%;
 }
 
 .game-tag {
