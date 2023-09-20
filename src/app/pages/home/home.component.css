@@ -1,5 +1,9 @@
 .principal-content {
-    height: 80vh;
+    height: 100vh;
     background: rgb(0,13,71);
     background: linear-gradient(90deg, rgba(0,13,71,1) 4%, rgba(9,9,121,1) 41%, rgba(0,129,201,1) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
