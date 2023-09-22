@@ -2,13 +2,9 @@
 
 <main class="principal-content">
 
-    <div class="container">
+    <div class="container" >
 
-        <app-game-card></app-game-card>
-
-        <app-game-card></app-game-card>
-
-        <app-game-card></app-game-card>
+        <app-game-card *ngFor="let game of dataGame" [dataGame]="game"></app-game-card>
 
     </div>
 
@@ -17,17 +13,10 @@
 <section class="see-more-box">
     <h3>Veja mais</h3>
 
-    <div>
+    <div >
 
-        <app-category-card></app-category-card>
-        <app-category-card></app-category-card>
-        <app-category-card></app-category-card>
-        <app-category-card></app-category-card>
-        <app-category-card></app-category-card>
-        <app-category-card></app-category-card>
-        <app-category-card></app-category-card>
-        <app-category-card></app-category-card>
-        
+        <app-category-card *ngFor="let categoryImage of dataCategory" [image]="categoryImage"></app-category-card>
+
     </div>
 
 </section>
