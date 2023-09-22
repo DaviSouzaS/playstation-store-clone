@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { dataGame } from 'src/app/interfaces/dataGame.interface';
 
 @Component({
   selector: 'app-game-card',
@@ -6,5 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./game-card.component.css']
 })
 export class GameCardComponent {
+
+  @Input()
+  dataGame: dataGame = {
+    "name": "",
+    "infos": "",
+    "tag": null,
+    "price": "",
+    "image": "",
+    "wallpaper": "",
+    "description": ""
+  }
+
+  constructor(){}
 
 }
