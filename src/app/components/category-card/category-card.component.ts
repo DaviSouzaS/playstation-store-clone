@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { mockCategoryCards } from "../../../mock/mock-category-cards"
 
 @Component({
   selector: 'app-category-card',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./category-card.component.css']
 })
 export class CategoryCardComponent {
+
+  @Input()
+  image: string = ""
+
+  constructor(){}
 
 }

@@ -1,0 +1,15 @@
+.category-card, img {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.category-card {
+    margin-bottom: 25px;
+    background-color: rgb(0, 0, 0);
+}
+
+.category-card > img:hover {
+    opacity: 90%;
+    cursor: pointer;
+}

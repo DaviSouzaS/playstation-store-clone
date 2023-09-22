@@ -1,0 +1,71 @@
+footer {
+    margin-top: 40px;
+    background-color: #003697;
+    height: 500px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.ps-logo {
+    width: 57px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.globe-logo {
+    width: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.images-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.images-box > div {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links > ul > li {
+    cursor: pointer;
+}
+
+.footer-links > ul > li:hover {
+    color: lightgray;
+}

@@ -2,35 +2,22 @@
 
 <main class="principal-content">
 
-    
+    <div class="container" >
 
-    <app-game-card></app-game-card>
+        <app-game-card *ngFor="let game of dataGame" [dataGame]="game"></app-game-card>
 
-    <app-game-card></app-game-card>
-
-    <app-game-card></app-game-card>
-
+    </div>
 
 </main>
 
-<section>
+<section class="see-more-box">
     <h3>Veja mais</h3>
 
-    <app-category-card></app-category-card>
+    <div >
 
-    <app-category-card></app-category-card>
+        <app-category-card *ngFor="let categoryImage of dataCategory" [image]="categoryImage"></app-category-card>
 
-    <app-category-card></app-category-card>
-
-    <app-category-card></app-category-card>
-
-    <app-category-card></app-category-card>
-
-    <app-category-card></app-category-card>
-
-    <app-category-card></app-category-card>
-
-    <app-category-card></app-category-card>
+    </div>
 
 </section>
 

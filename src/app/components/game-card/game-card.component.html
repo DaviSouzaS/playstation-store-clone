@@ -1,23 +1,23 @@
-<div class="game-card">
+<div class="game-card" [routerLink] = "['game-page', dataGame.id]">
 
-    <img class="game-img" src="../../../assets/pxfuel.jpg" alt="game-img">
+    <img class="game-img" src="{{dataGame.image}}" alt="game-img">
 
-    <div class="game-tag">
-        <p>Exclusive</p>
+    <div class="game-tag" *ngIf="dataGame.tag !== null">
+        <p>{{dataGame.tag}}</p>
     </div>
 
     <div class="game-data">
 
         <span>
-            <h2>God of war 3</h2>
+            <h2>{{dataGame.name}}</h2>
             
             <span>
-                <p class="infos">Full Game | PS3</p>
+                <p class="infos">{{dataGame.infos}}</p>
             </span>
         </span>
 
         <span>
-            <p>$60.00</p>
+            <p>${{dataGame.price}}</p>
         </span>
         
     </div>
