@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GameCardComponent } from './components/game-card/game-card.component';
 import { CategoryCardComponent } from './components/category-card/category-card.component';
+import { GamePageComponent } from './pages/game-page/game-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { CategoryCardComponent } from './components/category-card/category-card.
     HeaderComponent,
     FooterComponent,
     GameCardComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    GamePageComponent
+    
   ],
   imports: [
     BrowserModule,

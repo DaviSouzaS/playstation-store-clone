@@ -1,4 +1,5 @@
 export type dataGame = {
+    id: number;
     name: string;
     infos: string;
     tag: string | null;

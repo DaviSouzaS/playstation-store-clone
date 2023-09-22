@@ -10,6 +10,7 @@ export class GameCardComponent {
 
   @Input()
   dataGame: dataGame = {
+    id: 0,
     "name": "",
     "infos": "",
     "tag": null,

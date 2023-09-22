@@ -1,5 +1,6 @@
 export const mockGameCards = [
     {
+        "id": 1,
         "name": "God of war 3",
         "infos": "Full Game | PS3",
         "tag": "Exclusive",
@@ -9,6 +10,7 @@ export const mockGameCards = [
         "description": "Reignificando a Grande Guerra, Kratos sobe ao Monte Olimpo até ser abandonado pela titã Gaia. Guiado pelo espírito de Atena, Kratos luta contra monstros, deuses e Titãs em uma busca por Pandora, sem a qual ele não pode abrir a Caixa de Pandora, derrotar Zeus e acabar com o reinado dos deuses do Olimpo."
     },
     {
+        "id": 2,
         "name": "Grand Theft Auto V",
         "infos": "Full Game | PS4",
         "tag": null,
@@ -18,6 +20,7 @@ export const mockGameCards = [
         "description": "O jogo se passa no estado ficcional de San Andreas, com a história da campanha um jogador seguindo três criminosos e seus esforços para realizarem assaltos sob a pressão de uma agência governamental. O mundo aberto permite que os jogadores naveguem livremente pelas áreas rurais e urbanas de San Andreas."
     },
     {
+        "id": 3,
         "name": "Infamous 2",
         "infos": "Full Game | PS3",
         "tag": null,
